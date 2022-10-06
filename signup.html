@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In Form</title>
+    <title>Sign Up Form</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Font Icon -->
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 </head>
 <body>
+    <header class="site-navbar" role="banner">
+        <nav class="site-navigation position-relative text-right" role="navigation">
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li class="active"><a href="home.html"><span>Home</span></a></li>
+              <li><a href="#"><span>Fundraisers</span></a></li>
+              <li><a href="donation.html"><span>Donation Form</span></a></li>
+              <li><a href="signin.html"><span>Log In</span></a></li>
+              <li><a href="signup.html"><span>Sign Up</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <div class="main">
         <!-- Sign up form -->
         <section class="signup">
@@ -43,11 +55,15 @@
                             <div class="form-group form-button">
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
                             </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Already a member?"/>
+                                <a href="signin.html" class="signup-image-link"></a>
+                            </div>
                         </form>
                     </div>
                     <div class="signup-image">
                         <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
-                        <a href="index.html" class="signup-image-link">I am already member</a>
+                      
                     </div>
                 </div>
             </div>
