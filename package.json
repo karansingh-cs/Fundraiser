@@ -1,0 +1,17 @@
+{
+  "name": "bank-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://karansingh-cs.github.io/Fundraiser",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
